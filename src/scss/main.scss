@@ -1,0 +1,21 @@
+// Import variables
+@import "variables/colors";
+@import "variables/fonts";
+@import "variables/bootstrap";
+
+// Import core styles
+@import "core/base";
+@import "core/layout";
+@import "core/typography";
+
+// Import components
+@import "components/bootstrap";
+@import "components/header";
+@import "components/offers";
+@import "components/background";
+@import "components/stock";
+@import "components/active";
+@import "components/footer";
+
+
+

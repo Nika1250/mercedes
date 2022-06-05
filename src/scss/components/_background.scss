@@ -1,0 +1,268 @@
+.background-gradient {
+    position: absolute; 
+    top: 259px; 
+    left: 0; 
+    width: 100%; 
+    z-index: -1; 
+    background: linear-gradient(180deg, #000000 0%, #242424 24.9%, #000000 100%); 
+    height: 200vh;
+}
+
+.container-bg {
+    padding-left: 2.2rem;
+    padding-right: 2.2rem;
+    margin-bottom: 6.2rem;
+}
+
+.subcontainer {
+    position: absolute; 
+    left: 2.5rem; 
+    top: 5rem;
+
+    .text-header {
+        font-family: $font-cac;
+        font-size: 3rem;
+    }
+
+    .text-container {
+        font-family: $font-csr;
+        font-size: 1rem;
+    }
+}
+
+.subheader {
+    position: absolute; 
+    left: 2.5rem; 
+    bottom: 5rem;
+
+    .btn-primary {
+        background-color: $color-primary;
+    }
+
+    .text-subheader {
+        font-size: 2.3rem;
+        font-family: $font-cac;
+    }
+
+    .text-subcontainer {
+        font-size: 1.1rem;
+        font-family: $font-csr; 
+    }
+
+    .chevronwhite {
+        margin-right: .3rem;
+    }
+}
+
+
+
+@media (min-width: 576px) {
+
+    
+    .container-bg {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .subcontainer {
+        position: absolute; 
+        left: 1.5rem; 
+        top: 1.5rem;
+    
+        .text-header {
+            font-family: $font-cac;
+            font-size: 2rem;
+        }
+    
+        .text-container {
+            font-family: $font-csr;
+            font-size: .7rem;
+        }
+    }
+    
+    .subheader {
+        position: absolute; 
+        left: 1.5rem; 
+        bottom: 1.5rem;
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        .text-subheader {
+            font-size: 1.4rem;
+            font-family: $font-cac;
+            margin: 0;
+        }
+    
+        .text-subcontainer {
+            font-size: .9rem;
+            font-family: $font-csr; 
+        }
+    
+        .chevronwhite {
+            margin-right: .3rem;
+        }
+    }    
+}
+
+@media (min-width: 768px) {
+
+    
+    .container-bg {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .subcontainer {
+        position: absolute; 
+        left: 1.5rem; 
+        top: 1.5rem;
+    
+        .text-header {
+            font-family: $font-cac;
+            font-size: 2rem;
+        }
+    
+        .text-container {
+            font-family: $font-csr;
+            font-size: .7rem;
+        }
+    }
+    
+    .subheader {
+        position: absolute; 
+        left: 1.5rem; 
+        bottom: 1.5rem;
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        .text-subheader {
+            font-size: 1.4rem;
+            font-family: $font-cac;
+        }
+    
+        .text-subcontainer {
+            font-size: .9rem;
+            font-family: $font-csr; 
+        }
+    
+        .chevronwhite {
+            margin-right: .3rem;
+        }
+    }    
+}
+
+@media (min-width: 992px) {
+
+
+    .background-gradient {
+        position: absolute; 
+        top: 259px; 
+        left: 0; 
+        width: 100%; 
+        z-index: -1; 
+        background: linear-gradient(180deg, #000000 0%, #242424 24.9%, #000000 100%); 
+        height: 200vh;
+    }
+    
+    .container-bg {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .subcontainer {
+        position: absolute; 
+        left: 2rem; 
+        top: 2rem;
+    
+        .text-header {
+            font-family: $font-cac;
+            font-size: 2.3rem;
+        }
+    
+        .text-container {
+            font-family: $font-csr;
+            font-size: 1rem;
+        }
+    }
+    
+    .subheader {
+        position: absolute; 
+        left: 2rem; 
+        bottom: 2rem;
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        .text-subheader {
+            font-size: 1.6rem;
+            font-family: $font-cac;
+        }
+    
+        .text-subcontainer {
+            font-size: 1.2rem;
+            font-family: $font-csr; 
+        }
+    
+        .chevronwhite {
+            margin-right: .3rem;
+        }
+    }    
+}
+
+@media (min-width: 1200px) {
+    
+    
+    .container-bg {
+        padding-left: 2.2rem;
+        padding-right: 2.2rem;
+        margin-bottom: 6.2rem;
+    }
+    
+    .subcontainer {
+        position: absolute; 
+        left: 2.5rem; 
+        top: 5rem;
+    
+        .text-header {
+            font-family: $font-cac;
+            font-size: 3rem;
+        }
+    
+        .text-container {
+            font-family: $font-csr;
+            font-size: 1rem;
+        }
+    }
+    
+    .subheader {
+        position: absolute; 
+        left: 2.5rem; 
+        bottom: 5rem;
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        .text-subheader {
+            font-size: 2.3rem;
+            font-family: $font-cac;
+        }
+    
+        .text-subcontainer {
+            font-size: 1.1rem;
+            font-family: $font-csr; 
+        }
+    
+        .chevronwhite {
+            margin-right: .3rem;
+        }
+    }
+}

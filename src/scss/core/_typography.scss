@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'DaimlerCS';
+	src: url('../fonts/DaimlerCS-Light.woff2') format('woff2'),
+	url("../fonts/DaimlerCS-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DaimlerCS';
+	src: url('../fonts/DaimlerCS-Regular.woff2') format('woff2'),
+	url("../fonts/DaimlerCS-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DaimlerCS-Demi';
+	src: url('../fonts/DaimlerCS-Demi.woff2') format('woff2'),
+	url("../fonts/DaimlerCS-Demi.woff") format("woff");
+	font-weight: 600;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'DaimlerCAC';
+	src: url('../fonts/DaimlerCAC-Regular.woff2') format('woff2'),
+	url("../fonts/DaimlerCAC-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "DaimlerIcons";
+	src: url("../fonts/daimler.ttf") format("truetype"),
+	url("../fonts/daimler.woff") format("woff");
+	font-weight: normal;
+	font-style: normal
+}

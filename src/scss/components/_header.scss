@@ -1,0 +1,144 @@
+.navbar-header {
+    padding-top: 1.3rem;
+    padding-bottom: 1.5rem;
+
+    .container-header {
+        padding-left: 114px;
+        padding-right: 114px;
+        align-items: flex-end;
+    }
+}
+
+.brand-name {
+    margin-left: 4rem;
+    width: 135.74px;
+}
+
+.nav-header {
+    font-family: $font-csr;
+    font-size: 1rem;
+    align-items:flex-end ;
+
+    .nav-item {
+
+        .nav-text {
+            font-family: $font-csd;
+        }
+        
+        .navbar-link {
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+            padding-bottom: 0;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+
+    .navbar-header {
+        padding-top: 1.3rem;
+        padding-bottom: 1.5rem;
+    
+        .container-header {
+            padding-left: 3.1rem;
+            padding-right: 3.1rem;
+            align-items: flex-end;
+        }
+    }
+    
+    .brand-name {
+        margin-left: 1.5rem;
+        width: 135.74px;
+    }
+    
+    .nav-header {
+        font-family: $font-csr;
+        font-size: 1rem;
+    
+        .nav-item {
+    
+            .nav-text {
+                font-family: $font-csd;
+            }
+            
+            .navbar-link {
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+
+    .navbar-header {
+        padding-top: 1.3rem;
+        padding-bottom: 1.5rem;
+    
+        .container-header {
+            padding-left: 3.1rem;
+            padding-right: 3.1rem;
+            align-items: flex-end;
+        }
+    }
+    
+    .brand-name {
+        margin-left: 1.5rem;
+        width: 135.74px;
+    }
+    
+    .nav-header {
+        font-family: $font-csr;
+        font-size: 1rem;
+    
+        .nav-item {
+    
+            .nav-text {
+                font-family: $font-csd;
+            }
+            
+            .navbar-link {
+                padding-left: 1.2rem;
+                padding-right: 1.2rem;
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-header {
+        padding-top: 1.3rem;
+        padding-bottom: 1.5rem;
+    
+        .container-header {
+            padding-left: 3.1rem;
+            padding-right: 3.1rem;
+            align-items: flex-end;
+        }
+    }
+    
+    .brand-name {
+        margin-left: 4rem;
+        width: 135.74px;
+    }
+    
+    .nav-header {
+        font-family: $font-csr;
+        font-size: 1rem;
+    
+        .nav-item {
+    
+            .nav-text {
+                font-family: $font-csd;
+            }
+            
+            .navbar-link {
+                padding-left: 0;
+                padding-bottom: 0;
+            }
+        }
+    }
+}

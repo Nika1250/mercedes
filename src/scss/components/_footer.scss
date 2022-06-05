@@ -1,0 +1,106 @@
+footer {
+    padding: 103px 95px 114px 95px;
+}
+
+
+.footer {
+      
+    background: linear-gradient(180deg, #252525 0%, #191919 100%); 
+    padding: 1.5rem 2.5rem 2.5rem 2.5rem;
+
+    &__header {
+        border-bottom: 1px solid #EEE;
+
+        p {
+            font-size: 1rem;
+            font-family: $font-csr;
+        }
+
+        span {
+            color: $color-primary;
+        }
+
+        .chevronwhite {
+            margin-right: .7rem;
+            margin-left: .7rem;
+        }
+
+        a {
+            text-align: right;
+            text-decoration: none;
+        }
+
+        .textlink {
+            text-align: right;
+            text-decoration: none;
+
+        }
+
+        .chevronup {
+            margin-left: .3rem;
+        }
+    }
+}
+
+.footer__contact {
+
+    &-title {
+        font-size: 1.6rem;
+        font-family: $font-cac;
+        color: #FFF;
+
+        &--small {
+                font-size: 1rem;
+                font-family: $font-csr;
+        }
+    }
+}
+
+.btn-footer {
+    background-color: $color-secondary;
+    color: #FFF;
+
+    &:hover {
+        color: rgba(255, 255, 255, .5);
+    }
+}
+
+.footer__social {
+    a {
+        margin-right: 1.8rem;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
+
+.footer__items {
+    color: $color-lightgrey;
+    text-align: right;
+
+    a {
+        color: $color-lightgrey;
+        text-decoration: none;
+
+        &::after {
+            content: "|";
+            padding-right: .5rem;
+            padding-left: .5rem;
+        }
+
+        &:last-child::after {
+            content: "";
+        }
+    }
+}
+
+.container-legals {
+    margin-top: 1.4rem;
+}
+
+.footer_legals-items {
+    color: $color-lightgrey;
+}
+
+

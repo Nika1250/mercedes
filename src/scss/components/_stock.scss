@@ -1,0 +1,357 @@
+.stock {
+    padding: 0 4.8rem;
+    margin-bottom: 100px;
+    color: #fff;
+
+    &__price {
+        font-size: 1.5rem;
+        font-family: $font-cac;
+
+        &-dark {
+            text-decoration:line-through;
+        }
+    }   
+}
+
+.stock__header {
+
+	margin-bottom: 1.7rem;
+
+
+	&-line {
+		width: 2.8rem;
+		height: .1rem;
+		margin-bottom: 1.5rem;
+        display: block;
+        background-color: #fff;
+	}
+
+    h2 {
+        font-family: $font-cac;
+        font-size: 2.2rem;
+    }
+}
+
+.stock__caption {
+    position: absolute;
+    padding: 2.5rem 2.5rem;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        background: linear-gradient(77.2deg, rgba(0, 0, 0, 0.6) 3.36%, rgba(0, 0, 0, 0.0001) 88.08%);
+        mix-blend-mode: normal;
+        z-index: 1;
+    }
+
+    & > * {
+        z-index: 100;
+    }
+
+    &-title {
+        font-size: 4rem;
+        font-family: $font-cac;
+
+        &--small {
+            font-size: 2.2rem;
+        }
+    }
+
+    .btn-primary {
+        background-color: $color-primary;
+    }
+
+    &-subtext {
+        font-size: 1rem;
+        font-family: $font-csr;
+    }
+}
+
+.colum {
+    margin-bottom: 1.8rem;
+}
+
+@media (min-width: 576px) {
+
+
+    .stock {
+        padding: 0 4.3rem;
+        margin-bottom: 4.3rem;
+
+        &__price {
+            font-size: 1.5rem;
+            font-family: $font-cac;
+
+            &-dark {
+                text-decoration:line-through;
+            }
+        }
+    }
+    
+
+    .stock__header {
+
+        margin-bottom: 1.7rem;
+    
+    
+        &-line {
+            width: 2.8rem;
+            height: .1rem;
+            margin-bottom: 1.5rem;
+            display: block;
+            background-color: #fff;
+        }
+
+        h2 {
+            font-family: $font-cac;
+            font-size: 1.4rem;
+        }
+    }
+
+
+    .stock__caption {
+        position: absolute;
+        padding: .9rem;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        &-title {
+            font-size: 3.2rem;
+            font-family: $font-cac;
+
+            &--small {
+                font-size: 1.4rem;
+                font-family: $font-cac;
+            }
+        }
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        &-subtext {
+            font-size: .7rem;
+            font-family: $font-csr;
+        }
+    }
+    
+    .colum {
+        margin-bottom: 1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+
+    .stock {
+        padding: 0 3rem;
+        margin-bottom: 2.5rem;
+
+        &__price {
+            font-size: 1.5rem;
+            font-family: $font-cac;
+            margin: 0;
+
+            &-dark {
+                text-decoration:line-through;
+            }
+        }
+    }
+
+    .stock__header {
+
+        margin-bottom: 1.7rem;
+
+        h2 {
+            font-family: $font-cac;
+            font-size: 1.4rem;
+        }
+    }
+    
+    .stock__caption {
+        position: absolute;
+        padding: .9rem;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    
+        &-title {
+            font-size: 3.2rem;
+            font-family: $font-cac;
+
+            &--small {
+                font-size: 1.4rem;
+                font-family: $font-cac;
+            }
+        }
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        &-subtext {
+            font-size: .7rem;
+            font-family: $font-csr;
+            margin: 0;
+        }
+    }
+    
+    .colum {
+        margin-bottom: 1rem;
+    }
+}
+
+
+
+@media (min-width: 992px) {
+
+
+    .stock {
+        padding: 0 3.2rem;
+        margin-bottom: 2.5rem;
+
+        &__price {
+            font-size: 1.3rem;
+            font-family: $font-cac;
+        }
+               
+        &-dark {
+            text-decoration:line-through;
+        }
+    }
+
+    .stock__header {
+
+        margin-bottom: 1.7rem;
+
+        h2 {
+            font-family: $font-cac;
+            font-size: 1.6rem;
+        }
+    }
+    
+    .stock__caption {
+        position: absolute;
+        padding: .9rem .9rem;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    
+        &-title {
+            font-size: 3rem;
+            font-family: $font-cac;
+
+            
+        &--small {
+            font-size: 1.6rem;
+            font-family: $font-cac;
+            }
+        }
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        &-subtext {
+            font-size: 1rem;
+            font-family: $font-csr;
+            margin: .6rem;
+        }
+    }
+    
+    .colum {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    
+    .stock {
+        padding: 0 4.8rem;
+        margin-bottom: 100px;
+
+        &__price {
+            font-size: 1.5rem;
+            font-family: $font-cac;
+
+            &-dark {
+                text-decoration:line-through;
+            }
+        }  
+    }
+
+
+    .stock__header {
+
+        margin-bottom: 1.7rem;
+
+        h2 {
+            font-family: $font-cac;
+            font-size: 2.2rem;
+        }
+    }
+    
+    .stock__caption {
+        position: absolute;
+        padding: 2.5rem 2.5rem;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        &-title {
+            font-size: 4rem;
+            font-family: $font-cac;
+
+            &--small {
+                font-size: 2.2rem;
+                font-family: $font-cac;
+            }
+        }
+    
+        .btn-primary {
+            background-color: $color-primary;
+        }
+    
+        &-subtext {
+            font-size: 1rem;
+            font-family: $font-csr;
+        }
+    }
+    
+    .colum {
+        margin-bottom: 1.8rem;
+    }
+}
